@@ -1,0 +1,9 @@
+FROM postgres:16.8-alpine3.20
+
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=user
+#ENV POSTGRES_DB=links
+
+COPY 1create_database_script.sql 2create_users_table.sql 3create_urls_table.sql 4create_stats_table.sql 5mkuser.sh /docker-entrypoint-initdb.d/
+
+#docker run --rm --network=bridge -p 5432:5432 postgres_fastapi:latest
