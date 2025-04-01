@@ -63,5 +63,7 @@ stats:
 ![image](https://github.com/user-attachments/assets/990b409c-3cbf-4a58-aabc-0d3b397c6a35)
 ![image](https://github.com/user-attachments/assets/74af81f8-6014-4d41-b92f-4996fdae805d)
 
+Для запуска требуется сначала аупстить контейнер с БД, далее запускать сервис с API.
+
 
 
